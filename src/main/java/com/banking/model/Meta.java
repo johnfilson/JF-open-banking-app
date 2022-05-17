@@ -21,4 +21,5 @@ public class Meta {
     @JsonProperty("TermsOfUse")
     private String termsOfUse;
 
+
 }

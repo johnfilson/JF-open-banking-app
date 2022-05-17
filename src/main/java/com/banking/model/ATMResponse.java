@@ -16,4 +16,25 @@ public class ATMResponse {
 
     public ATMResponse() {
     }
+
+    public ATMResponse(Meta meta, List<ATMData> data) {
+        this.meta = meta;
+        this.data = data;
+    }
+
+    public Meta getMeta() {
+        return meta;
+    }
+
+    public void setMeta(Meta meta) {
+        this.meta = meta;
+    }
+
+    public List<ATMData> getData() {
+        return data;
+    }
+
+    public void setData(List<ATMData> data) {
+        this.data = data;
+    }
 }

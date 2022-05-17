@@ -13,4 +13,16 @@ public class ATMData {
 
     public ATMData() {
     }
+
+    public ATMData(List<Brand> brands) {
+        this.brands = brands;
+    }
+
+    public List<Brand> getBrands() {
+        return brands;
+    }
+
+    public void setBrands(List<Brand> brands) {
+        this.brands = brands;
+    }
 }

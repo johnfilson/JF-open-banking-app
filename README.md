@@ -1,1 +1,24 @@
-THIS SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+### Clone and Build Application
+1. Clone repository from Git, and make sure all the dependencies are up-to-date:
+Run `./gradlew clean build` to build the application
+
+### Access Running Test
+Running tests are simple you should go the Path 
+   1. For controller tests navigate or run from console: ATMControllerTest.java
+   2. For services tests navigate or run from console: ATMServicesTest.java
+Each test case is list in Numerical Order to make it easier to read.
+
+Controller the Integration Test, and Unit test
+
+
+### Accessing API Json
+Go to on your browser `https://api.lloydsbank.com/open-banking/v2.2/atms`
+
+### Run The Application 
+Running the application is simple you can go to the path or user your IDE to run it
+1. Click run in OpenBankApplication.class 
+2. Navigate to http://localhost:8080/atms?identification= $User Identification$ (LFFFAC11) 
+
+
+### Test Results
+Navigate to your browser $USER$/JF-open-banking-app/build/reports/tests/test/index.html

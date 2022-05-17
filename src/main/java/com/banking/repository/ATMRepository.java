@@ -11,6 +11,12 @@ import org.springframework.stereotype.Repository;
 @Repository
 public class ATMRepository {
 
+    /**
+     * Calls to other API can go in the Repository Layer, sometime people put this call
+     * in Service Layer, however, the Service layers doesn't care how it gets the data hence
+     * when in we Test, we can Mock data and see how the Service layer behaviours
+     */
+
     @Value("${open.banking.url}")
     private String url;
 

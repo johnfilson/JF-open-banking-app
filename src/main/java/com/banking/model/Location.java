@@ -12,4 +12,15 @@ public class Location {
     public Location() {
     }
 
+    public Location(PostalAddress postalAddress) {
+        this.postalAddress = postalAddress;
+    }
+
+    public PostalAddress getPostalAddress() {
+        return postalAddress;
+    }
+
+    public void setPostalAddress(PostalAddress postalAddress) {
+        this.postalAddress = postalAddress;
+    }
 }
