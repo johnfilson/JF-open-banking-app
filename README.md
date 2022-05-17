@@ -10,14 +10,13 @@ Each test case is list in Numerical Order to make it easier to read.
 
 Controller the Integration Test, and Unit test
 
-
 ### Accessing API Json
 Go to on your browser `https://api.lloydsbank.com/open-banking/v2.2/atms`
 
 ### Run The Application 
 Running the application is simple you can go to the path or user your IDE to run it
 1. Click run in OpenBankApplication.class 
-2. Navigate to http://localhost:8080/atms?identification= $User Identification$ (LFFFAC11) 
+2. Navigate to http://localhost:8080/atms?identification= $User Identification$ e.g., (LFFFAC11) 
 
 
 ### Test Results
