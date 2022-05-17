@@ -28,7 +28,7 @@ public class ATMControllerTest {
 
     private static final String AddressLine = "1 VICTORIA ROAD;";
 /**
-
+ Testing the control, and the HTTP status codes of the resultant API
  */
     @Test
     @DisplayName("TC_01 Get ATM details with a Valid ID")
