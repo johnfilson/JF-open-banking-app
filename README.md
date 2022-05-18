@@ -8,7 +8,7 @@ Running tests are simple you should go the Path
    2. For services tests navigate or run from console: ATMServicesTest.java
 Each test case is list in Numerical Order to make it easier to read.
 
-Controller the Integration Test, and Unit test
+Tested the controller and service by testing the HTTP status of the API and how data was getting treated by the methods. 
 
 ### Accessing API Json
 Go to on your browser `https://api.lloydsbank.com/open-banking/v2.2/atms`
